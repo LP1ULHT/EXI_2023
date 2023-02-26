@@ -17,13 +17,36 @@
 
 
 ## Descrição
-
+A aplicacação vai ordenar quatro números inteiros e de seguida verifica se e possivel somar dois dos números e obter o valor 2023. 
+Se é possivel obter o valoe 2023 entao apresenta o resultado da multiplicação desses 2 números, senao apresentao o valor zero.
   
   
-### Exemplos de utilização:
+## Exemplos de utilização:
+
+### Exemplo 1
+Enter four integers:
+>
+500 1023 5000 100
+Select (a) for ascending or (d) for descending?:
+>
+a 
+Sorted array: 
+100 1000 1023 5000
+The multiplication of the pair that sums up to 2023 is: 1023000
+
+Enter four integers:
+>
+500 1024 5000 100
+Select (a) for ascending or (d) for descending?:
+>
+a 
+Sorted array: 
+100 1000 1024 5000
+The multiplication of the pair that sums up to 2023 is: 0
 
 
 
+  
   
 ## Honestidade Académica
 
