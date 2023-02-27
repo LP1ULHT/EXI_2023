@@ -32,7 +32,7 @@ Após esta sequência, o programa deverá apresentar os números por ordem prece
 
 O programa deverá perguntar se o utilizador pretende continuar apresentando a seguinte mensagem:
 ```"Continue - (y) yes, (n) no?:\n>"```
-Caso o utilizador introduza `n` o programa deverá terminar. Caso o utilzador introduza `y` o programa deverá continuar.
+Caso o utilizador introduza `n` o programa deverá terminar com a mensagem `"Bye\n"`. Caso o utilizador introduza `y` o programa deverá continuar.
 
 Caso o utilizador pretenda continuar, o programa procura se há algum par de números cuja soma resulte em 2023. Caso encontre, deverá apresentar a seguinte mensagem
 ```"The multiplication of the pair that sums up to 2023 is: %d\n"```
@@ -42,6 +42,19 @@ Caso não encontre, deverá apresentar a mensagem
 Caso haja mais do que uma combinação possível de números cuja soma resulte em 2023, a combinação apresentada deverá ser aquela cujo primeiro operando surge primeiro na lista de números ordenados.
  
 ## Exemplos de utilização:
+### Exemplo 0
+```bash
+Enter four integers:
+>1 5 2 3
+Select (a) for ascending or (d) for descending?:
+>a 
+Sorted array: 
+1 2 3 4
+Continue - (y) yes, (n) no?:
+>n
+Bye
+```
+
 
 ### Exemplo 1
 ```bash
@@ -51,6 +64,8 @@ Select (a) for ascending or (d) for descending?:
 >a 
 Sorted array: 
 500 1000 1023 5000
+Continue - (y) yes, (n) no?:
+>y
 The multiplication of the pair that sums up to 2023 is: 1023000
 ```
 
@@ -62,6 +77,8 @@ Select (a) for ascending or (d) for descending?:
 >d
 Sorted array: 
 5000 1024 1000 500
+Continue - (y) yes, (n) no?:
+>y
 No pair of integers add up to 2023.
 ```
 
@@ -73,6 +90,21 @@ Select (a) for ascending or (d) for descending?:
 >a
 Sorted array:
 1010 1011 1012 1013 
+Continue - (y) yes, (n) no?:
+>y
+The multiplication of the pair that sums up to 2023 is: 1023130  
+```
+
+### Exemplo 5
+```bash
+Enter four integers:
+>1011 1012 1013 1010
+Select (a) for ascending or (d) for descending?:
+>a
+Sorted array:
+1010 1011 1012 1013
+Continue - (y) yes, (n) no?:
+>y
 The multiplication of the pair that sums up to 2023 is: 1023130  
 ```
 
