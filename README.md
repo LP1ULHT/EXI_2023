@@ -4,7 +4,7 @@
 
 # Exercício Individual 1
 
->Na resolução deste exercício deve ser utilizada a Linguagem de Programação C. Para além da correta implementação dos requisitos, tenha em conta os >seguintes aspetos:
+>Na resolução deste exercício deve ser utilizada a Linguagem de Programação C. Para além da correta implementação dos requisitos, tenha em conta os seguintes aspetos:
 >- O código apresentado deve ser bem indentado. 
 >- O código deve compilar sem erros ou *warnings* utilizando o *gcc* com as seguintes flags:
 >- `-g -Wvla -Wall -Wpedantic -Wextra -Wdeclaration-after-statement`
