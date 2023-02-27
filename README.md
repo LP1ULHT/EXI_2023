@@ -18,36 +18,64 @@
 
 ## Descrição
 A aplicacação vai ordenar quatro números inteiros e de seguida verifica se e possivel somar dois dos números e obter o valor 2023. 
-Se é possivel obter o valoe 2023 entao apresenta o resultado da multiplicação desses 2 números, senao apresentao o valor zero.
+Caso seja possível obter o valor 2023 então apresenta o resultado da multiplicação desses 2 números, caso contrário apresenta uma mensagem indicativa.
   
-  
+O programa inicia com a apresentação da mensagem:
+```"Enter four integers:\n>"```
+
+Depois de lidos os 4 valores inteiros, o programa pergunta ao utilizador se quer ordenar por ordem crescente ou decrescente. Para isso apresenta a seguinte mensagem:
+```"Select (a) for ascending or (d) for descending?:\n>"```
+E depois lê o caracter introduzido pelo utilizador. Deverá ignorar espaços e caso o utilizador introduza um caracter que não é o 'a' nem o 'd' deverá apresentar a mensagem de erro ```"Error: invalid option"``` e voltar a apresentar a mensagem que pede para introdução da opção de ordenação.
+
+Após esta sequência, o programa deverá apresentar os números por ordem precedidos da mensagem:
+```"Sorted array:\n"```
+
+O programa deverá perguntar se o utilizador pretende continuar apresentando a seguinte mensagem:
+```"Continue - (y) yes, (n) no?:\n>"```
+Caso o utilizador introduza `n` o programa deverá terminar. Caso o utilzador introduza `y` o programa deverá continuar.
+
+Caso o utilizador pretenda continuar, o programa procura se há algum par de números cuja soma resulte em 2023. Caso encontre, deverá apresentar a seguinte mensagem
+```"The multiplication of the pair that sums up to 2023 is: %d\n"```
+Caso não encontre, deverá apresentar a mensagem
+```"No pair of integers add up to 2023.\n"```
+
+Caso haja mais do que uma combinação possível de números cuja soma resulte em 2023, a combinação apresentada deverá ser aquela cujo primeiro operando surge primeiro na lista de números ordenados.
+ 
 ## Exemplos de utilização:
 
 ### Exemplo 1
+```bash
 Enter four integers:
->
-500 1023 5000 100
+>500 1023 5000 1000
 Select (a) for ascending or (d) for descending?:
->
-a 
+>a 
 Sorted array: 
-100 1000 1023 5000
+500 1000 1023 5000
 The multiplication of the pair that sums up to 2023 is: 1023000
+```
 
+### Exemplo 2
+```bash
 Enter four integers:
->
-500 1024 5000 100
+>500 1024 5000 100
 Select (a) for ascending or (d) for descending?:
->
-a 
+>d
 Sorted array: 
-100 1000 1024 5000
-The multiplication of the pair that sums up to 2023 is: 0
+5000 1024 1000 500
+No pair of integers add up to 2023.
+```
 
+### Exemplo 3
+```bash
+Enter four integers:
+>1011 1012 1013 1010
+Select (a) for ascending or (d) for descending?:
+>a
+Sorted array:
+1010 1011 1012 1013 
+The multiplication of the pair that sums up to 2023 is: 1023130  
+```
 
-
-  
-  
 ## Honestidade Académica
 
 Nesta disciplina, espera-se que cada aluno siga os mais altos padrões de honestidade académica. Trabalhos que sejam identificados como cópias serão anulados e os alunos envolvidos terão nota zero - quer tenham copiado, quer tenham deixado copiar.
