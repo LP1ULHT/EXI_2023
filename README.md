@@ -11,7 +11,7 @@
 >- Tenha em atenção os nomes dados das variáveis, para que sejam indicadores daquilo que as mesmas vão conter.
 >- O trabalho deve ser desenvolvido e submetido de forma individual.
 
->Este exercício deverá ser submetido na plataforma Pandora até às 10:00 do dia 06/03/2023 e será contabilizado para a nota final da unidade curricular de acordo com os critérios disponibilizados na página da disciplina, concretamente nos slides da primeira aula.
+>Este exercício deverá ser submetido na plataforma Pandora até às 16:52 do dia 10/03/2023 e será contabilizado para a nota final da unidade curricular de acordo com os critérios disponibilizados na página da disciplina, concretamente nos slides da primeira aula.
 
 >Todos os trabalhos serão comparados utilizando um sistema de detecção de plágio.
 
